@@ -17,19 +17,14 @@ ul{
       background-color: lightblue;
     }
     
-   /* form{
-        width: 300px; margin:auto
-    }*/
+   form{
+        width: 350px; margin:auto
+    }
     label{
        font-size: 15px;
     }
 
-    input{
-        width: 50%;
-    }
-    button{
-        width:50%
-    }
+    
     ul{
         width: 80%;
     }
