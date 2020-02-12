@@ -25,10 +25,13 @@ ul{
     }
 
     input{
-        width: 100%;
+        width: 80%;
+    }
+    button{
+        width:80%
     }
     ul{
-        width: 100%;
+        width: 80%;
     }
  }
 
