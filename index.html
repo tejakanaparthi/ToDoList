@@ -4,12 +4,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script  type="text/javascript"  src="./toDoList.js"></script>
-  <link rel="stylesheet" type="text/css" href="./todoList.css">
+  <link rel="stylesheet" type="text/css" href="./todoList.css"/>
 
     <body>
-        <form style="width: 500px; margin:auto">
+        <form>
                 <div class="form-group text-center" style="padding:8px" >
-                        <label style="color: green;font-size:30px">Write the things you need to do....</label>
+                        <label style="color: green">Write the things you need to do....</label>
                         <input type="text" class="form-control " id="toDoText" placeholder="Enter Text here" autofocus/>
                 </div>
             
@@ -17,7 +17,7 @@
                         <button type="button" class="form-control btn btn-success" onclick="addToDo()">Add To Do</button>
                 </div>
         </form>
-        <ul class="list-group" id="listView" style="width: 500px; margin:auto ;">
+        <ul class="list-group" id="listView">
                  <li class="list-group-item d-flex justify-content-between align-items-center" >Cras justo odio
                         <span class="pull-right">    
                             <button type="button" class="btn btn-default btn-sm " onclick="removeToDo()">

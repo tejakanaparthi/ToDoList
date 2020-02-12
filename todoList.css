@@ -9,9 +9,10 @@ label{
     font-size: 30px;
 }
 ul{
-    width: 500px; margin:auto ;
+    width:500px;
+    margin:auto;
 }
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
     }
